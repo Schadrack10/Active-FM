@@ -6,6 +6,21 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
 
+
+
+const gridContainer = {
+  height:"calc(100vh - 84px)",
+  width:"100%" ,
+  background:"#111"
+
+}
+const gridItem = {
+  height:"100%",
+  width:"100%" ,
+  overflow:"auto"
+}
+
+
 export default function Home() {
   return (
     <>
@@ -15,12 +30,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Box sx={{height:"410px"}}>
-    
-    <Typography variant="h3" color="error">Home</Typography>
-   
-   </Box>
-     
+      <Box sx={{ height: "auto" }}>
+
+        <Grid container sx={gridContainer}>
+          <Grid item md={8} style = {gridItem}>
+               <Box sx={{height:"1000px",width:"100px"}}></Box>
+          </Grid>
+          <Grid item md={4} style={gridItem}>
+
+          </Grid>
+
+        </Grid>
+
+
+      </Box>
+
     </>
 
   )
