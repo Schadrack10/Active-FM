@@ -26,7 +26,7 @@ const gridItem = {
   padding: "0 15px"
 }
 const sections = {
-  height: "400px",
+  height: "300px",
   //  border:"1px solid red",
   width: "100%",
   overflowX: "scroll",
@@ -48,8 +48,8 @@ export default function Home() {
         <Grid container sx={gridContainer}>
           <Grid item md={8} style={gridItem}>
             <SwiperComp />
-            <Box sx={sections}>
               <SectionTitle title="Talk Show"/>
+            <Box sx={sections}>
               <Box sx={{ width: "1000px", height: "200px" }}></Box>
             </Box>
 

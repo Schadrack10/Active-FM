@@ -6,6 +6,7 @@ const heading = {
 };
 
 const headingContainer = {
+    margintop:"30px",
   display: "flex",
   flexDirection: "column",
 };
