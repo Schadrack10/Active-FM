@@ -4,20 +4,33 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Swiper from '../components/SwiperComp';
+import SwiperComp from '../components/SwiperComp';
+import SectionTitle from '../components/SectionTitle';
+
+
 
 
 
 
 const gridContainer = {
-  height:"calc(100vh - 84px)",
-  width:"100%" ,
-  background:"#111"
+  height: "calc(100vh - 84px)",
+  width: "100%",
+  background: "#111"
 
 }
 const gridItem = {
-  height:"100%",
-  width:"100%" ,
-  overflow:"auto"
+  height: "100%",
+  width: "100%",
+  overflow: "auto",
+  padding: "0 15px"
+}
+const sections = {
+  height: "400px",
+  //  border:"1px solid red",
+  width: "100%",
+  overflowX: "scroll",
+  margin: "20px 0"
 }
 
 
@@ -33,10 +46,17 @@ export default function Home() {
       <Box sx={{ height: "auto" }}>
 
         <Grid container sx={gridContainer}>
-          <Grid item md={8} style = {gridItem}>
-               <Box sx={{height:"1000px",width:"100px"}}></Box>
+          <Grid item md={8} style={gridItem}>
+            <SwiperComp />
+            <Box sx={sections}>
+              <SectionTitle title="Talk Show"/>
+              <Box sx={{ width: "1000px", height: "200px" }}></Box>
+            </Box>
+
+
           </Grid>
           <Grid item md={4} style={gridItem}>
+            {/* <Box sx={{height:"1000px",width:"100%",background:"#222"}}>bmbhhj</Box> */}
 
           </Grid>
 
