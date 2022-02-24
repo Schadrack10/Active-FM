@@ -5,11 +5,12 @@ import Grid from '@mui/material/Grid';
 
 
 const container = {
-    background:"black",
-    height:"100px",
+    background:"#000",
+    height:"180px",
     width:"100%",
     color:"white",
-    padding:"20px"
+    padding:"20px",
+    borderRadius:"40px 40px 0 0"
 }
 
 

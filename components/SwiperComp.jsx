@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 const swiperStyles = {
    height:"230px",
    width:"100%",
-   marginTop:"10px"
+   marginTop:"5px"
 }
 const swiperImg = {
   width:"100%",
