@@ -32,7 +32,7 @@ const sections = {
   height: "300px",
   //  border:"1px solid red",
   width: "100%",
-  overflowX: "scroll",
+  overflow: "auto",
   margin: "20px 0",
   // padding:"10px",
   display: "flex",
@@ -46,7 +46,7 @@ const cardContainer = {
 }
 const scheduleContainer = {
   // border:"1px solid red",
-  height:"500px",
+  height:"550px",
   width:"100%",
   margin:"20px 0"
 }
