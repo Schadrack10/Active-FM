@@ -12,6 +12,9 @@ const container = {
   margin: "0 5px",
   padding: "8px",
   cursor: "pointer",
+  '&:hover':{
+    background: "rgba(0, 0, 0, 0.3)",
+  }
 };
 const imageContainer = {
   width: "100%",
@@ -37,7 +40,7 @@ const heading = {
   margin:"10px 0"
 };
 const paragraph = {
-  color: "#333",
+  color: "#555",
   fontSize: "13px",
   wordBreak:"break-all",
   textOverflow: "ellipsis"
@@ -50,10 +53,10 @@ const Card = ({ img, title, para ,para2 }) => {
         <img style={image} src={img} alt="card-image" />
       </Box>
       <Box sx={textContainer}>
-        <Typography sx={heading} variant="p" color="">
+        <Typography sx={heading} variant="p">
           {title}
         </Typography>
-        <Typography sx={paragraph} variant="p" color="">
+        <Typography sx={paragraph} variant="p">
           {para}  <br />
           {para2}
         </Typography>
