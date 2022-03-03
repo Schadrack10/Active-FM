@@ -10,7 +10,6 @@ import Card from "../components/Card";
 import SectionTitle from "../components/SectionTitle";
 // import ReactPlayer from 'react-player'
 
-
 const gridContainer = {
   height: "calc(100vh - 84px)",
   width: "100%",
@@ -38,7 +37,7 @@ const sections = {
   // padding:"10px",
   display: "flex",
   flexDirection: "column",
-  padding:"20px 0"
+  padding: "20px 0",
   // justifyContent:"space-between"
 };
 const iframeStyle = {
@@ -54,7 +53,7 @@ const cardContainer = {
   display: "flex",
   justifyContent: "space-between",
   width: "100%",
-  margin:"15px 0",
+  margin: "15px 0",
   // height:"600px"
   // border:"1px solid red"
   // border:"1px solid violet"
@@ -96,125 +95,110 @@ const Shows = () => {
                 />
               </Box>
               <Box sx={cardContainer}>
-             
-            
-             <Card
-               img="The VAR.jpg"
-               title="The V.A.R Show"
-               para="This show is for every football"
-               para2="lover out there. V.A.R"
-             />
-             <Card
-               img="It's A Mom's Life 1.jpg"
-               title="It's A Mom's Life"
-               para="Struggling to cope as a mom?"
-               para2="Not sure if you are raisin..."
-             />
-             <Card
-               img="The Void 1 (1).jpg"
-               title="The Void Show"
-               para="This show is about science"
-               para2="and the world today.want to..."
-             />
-           
-         
-           </Box>
-           <Box sx={cardContainer}>
-             
-            
-             <Card
-               img="The VAR.jpg"
-               title="The V.A.R Show"
-               para="This show is for every football"
-               para2="lover out there. V.A.R"
-             />
-             <Card
-               img="It's A Mom's Life 1.jpg"
-               title="It's A Mom's Life"
-               para="Struggling to cope as a mom?"
-               para2="Not sure if you are raisin..."
-             />
-             <Card
-               img="The Void 1 (1).jpg"
-               title="The Void Show"
-               para="This show is about science"
-               para2="and the world today.want to..."
-             />
-           
-         
-           </Box>
-           <Box sx={cardContainer}>
-             
-            
-             <Card
-               img="The VAR.jpg"
-               title="The V.A.R Show"
-               para="This show is for every football"
-               para2="lover out there. V.A.R"
-             />
-             <Card
-               img="It's A Mom's Life 1.jpg"
-               title="It's A Mom's Life"
-               para="Struggling to cope as a mom?"
-               para2="Not sure if you are raisin..."
-             />
-             <Card
-               img="The Void 1 (1).jpg"
-               title="The Void Show"
-               para="This show is about science"
-               para2="and the world today.want to..."
-             />
-           
-         
-           </Box>
-           <Box sx={cardContainer}>
-             
-            
-             <Card
-               img="The VAR.jpg"
-               title="The V.A.R Show"
-               para="This show is for every football"
-               para2="lover out there. V.A.R"
-             />
-             <Card
-               img="It's A Mom's Life 1.jpg"
-               title="It's A Mom's Life"
-               para="Struggling to cope as a mom?"
-               para2="Not sure if you are raisin..."
-             />
-             <Card
-               img="The Void 1 (1).jpg"
-               title="The Void Show"
-               para="This show is about science"
-               para2="and the world today.want to..."
-             />
-           
-         
-           </Box>
-           <Box sx={cardContainer}>
-             
-            
-             <Card
-               img="The VAR.jpg"
-               title="The V.A.R Show"
-               para="This show is for every football"
-               para2="lover out there. V.A.R"
-             />
-             <Card
-               img="It's A Mom's Life 1.jpg"
-               title="It's A Mom's Life"
-               para="Struggling to cope as a mom?"
-               para2="Not sure if you are raisin..."
-             />
-             <Card
-               img="The Void 1 (1).jpg"
-               title="The Void Show"
-               para="This show is about science"
-               para2="and the world today.want to..."
-             />
-           
-         
-           </Box>
+                <Card
+                  img="laun.jpg"
+                  title="Dirty Laundry"
+                  para="Welcome to Dirty Laundry!"
+                  para2="Naomi & Beston discuss anything.."
+                />
+
+                <Card
+                  img="morning4.jpg"
+                  title="Let's Talk"
+                  para="Struggling to cope as a mom?"
+                  para2="Not sure if you are raisin..."
+                />
+
+                <Card
+                  img="morning5.jpg"
+                  title="The TBA Show"
+                  para="This show is about science"
+                  para2="and the world today.want to..."
+                />
+              </Box>
+              <Box sx={cardContainer}>
+                <Card
+                  img="morning5.jpg"
+                  title="The TBA Show"
+                  para="This show is about science"
+                  para2="and the world today.want to..."
+                />
+
+                <Card
+                  img="It's A Mom's Life 1.jpg"
+                  title="It's A Mom's Life"
+                  para="Struggling to cope as a mom?"
+                  para2="Not sure if you are raisin..."
+                />
+                <Card
+                  img="morning2.jpg"
+                  title="The Political show"
+                  para="Need some motivation? Enjoy"
+                  para2="some very encouraging and i .."
+                />
+              </Box>
+              <Box sx={cardContainer}>
+                <Card
+                  img="morning1.jpeg"
+                  title="The Love Show"
+                  para="Hey Kids! Go on a very fun"
+                  para2="adventure with T&C they i..."
+                />
+
+                <Card
+                  img="morning6.jpg"
+                  title="De Mode"
+                  para="Welcome to Dirty Laundry!"
+                  para2="Naomi & Beston discuss anything.."
+                />
+
+                <Card
+                  img="morning4.jpg"
+                  title="Let's Talk"
+                  para="Struggling to cope as a mom?"
+                  para2="Not sure if you are raisin..."
+                />
+              </Box>
+              <Box sx={cardContainer}>
+                <Card
+                  img="The VAR.jpg"
+                  title="The V.A.R Show"
+                  para="This show is for every football"
+                  para2="lover out there. V.A.R"
+                />
+                <Card
+                  img="It's A Mom's Life 1.jpg"
+                  title="It's A Mom's Life"
+                  para="Struggling to cope as a mom?"
+                  para2="Not sure if you are raisin..."
+                />
+                <Card
+                  img="The Void 1 (1).jpg"
+                  title="The Void Show"
+                  para="This show is about science"
+                  para2="and the world today.want to..."
+                />
+              </Box>
+              <Box sx={cardContainer}>
+                <Card
+                  img="The VAR.jpg"
+                  title="The V.A.R Show"
+                  para="This show is for every football"
+                  para2="lover out there. V.A.R"
+                />
+                <Card
+                  img="It's A Mom's Life 1.jpg"
+                  title="It's A Mom's Life"
+                  para="Struggling to cope as a mom?"
+                  para2="Not sure if you are raisin..."
+                />
+                <Card
+                  img="morning1.jpeg"
+                  title="The Love Show"
+                  para="Hey Kids! Go on a very fun"
+                  para2="adventure with T&C they i..."
+                />
+              </Box>
             </Box>
             <Footer />
           </Grid>
