@@ -8,6 +8,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
+import PodcastsIcon from '@mui/icons-material/Podcasts';
 
 
 
@@ -199,7 +200,7 @@ const Navbar = () => {
           <InstagramIcon sx={hoverIcons} fontSize="small"/>
               <FacebookIcon sx={hoverIcons} fontSize="small"/>
               <YouTubeIcon  sx={hoverIcons} fontSize="small"/>
-              <TwitterIcon sx={hoverIcons} fontSize="small"/>
+              <PodcastsIcon sx={hoverIcons} fontSize="small"/>
           </Box>
       
 

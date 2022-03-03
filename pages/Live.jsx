@@ -70,6 +70,7 @@ const Live = () => {
 
           <Box sx={sections}>
             <ReactPlayer
+               playing={true}
               width="100%"
               height="500px"
               url="https://www.youtube.com/watch?v=rjDXZO-Ek24"

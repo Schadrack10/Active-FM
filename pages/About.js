@@ -61,6 +61,17 @@ const frame = {
   height: "200px",
   background: "#000"
 };
+const heading = {
+  color: "white",
+  margin: "20px 0"
+}
+const paragraph = {
+  color: "#888",
+  margin: "10px 0"
+}
+
+
+
 
 
 const About = () => {
@@ -71,14 +82,52 @@ const About = () => {
           <SectionTitle title="The Active FM story" />
           <Box sx={sections}>
             <ReactPlayer
-              onReady="true"
+              playing="true"
               width="100%"
-              height="500px"
-              url=""
+              height="400px"
+              url="https://www.activefm.co.za/promo.mp4"
               style={frame}
             />
             {/* <video autoplay="true" style="width: 100%; height: 350px; min-height: 400px; background: rgb(0, 0, 0);"><source src="promo.mp4" type="video/mp4"><source src="promo.ogg" type="video/ogg">Your browser does not support the videotag.</source></video> */}
 
+
+            {/* add content here */}
+            <Typography variant="" sx={heading}>
+              Who Are We?
+            </Typography>
+
+            <Typography variant="" sx={paragraph}>
+              Active FM is an international online podcasting radio station operating from the south of Johannesburg.
+              We release 5 shows a day - Mondays to Fridays.
+              We release 5 shows a day - Mondays to Fridays. We have all your favourite shows and the greatest variety of topics to match all your interests - from sports to trends, philosophy, astronomy, comedy, love, movies and so much more.
+              We talk about handling day to day obstacles, enjoying life, world events and its impact on us.
+            </Typography>
+
+            <Typography variant="" sx={heading}>
+              Why Choose Active FM?
+
+            </Typography>
+
+            <Typography variant="" sx={paragraph}>
+              Our presenters bring amusing fresh perspectives.
+              Active FM focuses on producing quality shows with unique content and lively radio DJ’s. Active FM is more than just a radio station - it’s a family. A community of people uniting to discuss the issues of life and share common interests / hobbies.
+              You are guaranteed to learn new life skills, feel great after listening to our shows and we’ll keep you updated.
+              Get the truth and stay connected. Become a part of the family today.
+
+            </Typography>
+
+            <Typography variant="" sx={heading}>
+              Active FM Milestones / Achievements:
+
+            </Typography>
+
+            <Typography variant="" sx={paragraph}>
+              Active FM is in over 100 countries with a 50% increase in listenership annually.
+              De Mode has ranked number 1 in the category “Fashion and Beauty” in Yemen and number 12 in category “Arts” in Yemen. Philosophically Poetic ranked in the top listened to shows on iTunes in Kenya.
+              We have distinguished interviews with great artists and businessmen / women all over the world.
+              Link: https://iono.fm/c/4178
+
+            </Typography>
 
           </Box>
           <Footer />
